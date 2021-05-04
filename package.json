@@ -1,0 +1,63 @@
+{
+  "name": "phone-catalogue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive phone-catalogue template built with Vue.js and Nuxt.js",
+  "author": "Punit Namdeo <punitn05@gmail.com>",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "test": "jest",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "template",
+    "phone-catalogue",
+    "vuejs",
+    "theme",
+    "responsive",
+    "nuxtjs"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/font-awesome": "^1.0.4",
+    "bulma": "^0.9.2",
+    "core-js": "^3.9.1",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.8.1",
+    "sass-loader": "^10.1.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "~7.12.1",
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@vue/cli-service": "^4.5.12",
+    "@vue/test-utils": "^1.1.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.22.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "jest": "^26.6.3",
+    "ssri": "^8.0.1",
+    "vue-jest": "^3.0.4",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "resolutions": {
+    "ssri": "^8.0.1"
+  }
+}
